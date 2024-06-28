@@ -1,12 +1,12 @@
 @media(max-width: 767px)and (min-device-pixel-ratio: 2),(max-width: 767px)and (-webkit-min-device-pixel-ratio: 2),(max-width: 767px)and (min-resolution: 192dpi),(max-width: 767px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index@2x.avif")
+        background-image:url("../img/tui-best-ager-fernreise-index@2x.webp")
     }
 }
 
 @media(min-width: 768px)and (min-device-pixel-ratio: 2),(min-width: 768px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 768px)and (min-resolution: 192dpi),(min-width: 768px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index@2x.avif")
+        background-image:url("../img/tui-best-ager-fernreise-index@2x.webp")
     }
 }
 @media screen and (max-width: 768px) {
@@ -17,7 +17,7 @@
         margin-top:47px;
     }
     .hero {
-        background-image: url("../img/tui-nordsee-ostsee-index.avif")
+        background-image: url("../img/tui-best-ager-fernreise-index.webp")
     }
     .hero-title {
         text-shadow:2px 2px 2px rgba(0,0,0,.27)
@@ -40,20 +40,11 @@
         flex-direction: row;
     }
 }
-@media (min-width: 767px) {
 
-    .double-img{
-        flex-direction: row;
-        margin-bottom: 80px;
-    }
-}
 
 @media screen and (min-width: 769px) {
     .section {
         padding: 80px 0;
-    }
-    .embed {
-        margin-bottom: 80px;
     }
     .custom-image-margin {
         margin-bottom: 80px;
@@ -81,7 +72,7 @@
         width: 100%;
     }
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index.avif");
+        background-image:url("../img/tui-best-ager-fernreise-index.webp");
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
@@ -96,6 +87,9 @@
         font-size: 50px;
         line-height: 57px;
     }
+    .hero-title span {
+        font-size: 36px
+    }
     .nav {
         display:-webkit-box;
         display: -ms-flexbox;
@@ -108,8 +102,8 @@
         grid-template-columns: repeat(3, 1fr);
     }
     .section-bottom{
-        margin-bottom: 120px;
-        padding-top: 100px;
+        padding-top:200px;
+        padding-bottom:80px;
     }
 }
 @media(min-width: 1200px) {
@@ -123,7 +117,7 @@
         max-width: 932px
     }
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index.avif");
+        background-image:url("../img/tui-best-ager-fernreise-index.webp");
     }
     .hero-title {
         max-width:1100px;
@@ -131,9 +125,9 @@
     .nav-list--link {
         line-height: 19px;
     }
-    .swiper {
-        height:753px;
-    }
+    /*.swiper {*/
+    /*    height:753px;*/
+    /*}*/
     .swiper-button-next, .swiper-button-prev {
         display: flex!important;
     }
@@ -141,6 +135,6 @@
 
 @media(min-width: 1200px)and (min-device-pixel-ratio: 2),(min-width: 1200px)and (-webkit-min-device-pixel-ratio: 2),(min-width: 1200px)and (min-resolution: 192dpi),(min-width: 1200px)and (min-resolution: 2dpx) {
     .hero {
-        background-image:url("../img/tui-nordsee-ostsee-index.avif")
+        background-image:url("../img/tui-best-ager-fernreise-index.webp")
     }
 }
