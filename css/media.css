@@ -105,6 +105,17 @@
         padding-top:200px;
         padding-bottom:80px;
     }
+    .item-slider-content {
+        padding: 20px 40px 70px;
+    }
+    .icon-column--icon{
+        width: 40px;
+        height: 40px;
+    }
+    .item-footer{
+        display: flex;
+        gap:50px;
+    }
 }
 @media(min-width: 1200px) {
     .section-title {
